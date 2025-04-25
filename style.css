@@ -30,14 +30,16 @@ body {
   transform: translate(-50% , -50%);
   width: 100%;
   height: 100%;
-  filter: blur(0.1vmin);
+  
 }
 .night h1{
   color: white;
   margin-top: 10px;
   text-align: center;
   animation: opacite 4s linear infinite;
-
+background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 @keyframes opacite {
   from{
