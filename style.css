@@ -37,9 +37,7 @@ body {
   margin-top: 10px;
   text-align: center;
   animation: opacite 4s linear infinite;
-background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-  -webkit-background-clip: text;
-  color: transparent;
+text-shadow: 5px 5px black;
 }
 @keyframes opacite {
   from{
